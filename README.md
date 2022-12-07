@@ -1,4 +1,4 @@
-# mini_app
+# Mini_app
 
 
 This Mini App is recreation of the MiniCopper website.  
