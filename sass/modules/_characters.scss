@@ -1,0 +1,51 @@
+#car-nav { 
+    text-align: center; 
+    background-color: #ffffff; 
+    //background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  
+  .car { list-style-type: none; padding: 1.5em; margin: 4em;}
+  
+  .car li { 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 290px;
+    margin: 10px 8px;
+  
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    overflow: hidden;
+  
+    /* border: thin dashed white; */
+  }
+  
+  .characters li h5 {
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    padding: 14px 8px; 
+    position: relative; 
+    z-index: 50; 
+  }
+  
+  .characters li h5 {
+    color: rgb(61, 1, 88);
+    font-size: 24px;
+    font-family: 'Marcellus', serif;
+    padding: 2em;
+  }
+  
+  .car li a {
+    text-decoration: none;
+  }
+
+  .sprite { 
+    width: 150px;
+    height: 150px;
+    background-color: rgb(250, 249, 249);
+  }
+
+  .car li:hover  { height: 70px; }
+

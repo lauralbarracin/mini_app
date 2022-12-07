@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Cooper App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="hidden">Mini Cooper App</h1>
+      <nav>
+        <!--<img src="image/logo.png" alt="logo" id="logo" />-->
+        <header class="header">
+          <img
+            id="main-logo"
+            src="./images/logo.png"
+            alt="mini logo"
+            width="130"
+          />
+          <label class="menu-icon" for="menu-btn"
+            ><span class="navicon"></span
+          ></label>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Models</a></li>
+            <li><a href="#">Price & Build</a></li>
+          </ul>
+        </header>
+      </nav>
+    </header>
+    <main>
+      <div id="banner">
+        <!-- Hero Copper -->
+        <picture>
+          <source media="(min-width:1280px)" srcset="images/hero1920.png" />
+          <source media="(min-width:768px)" srcset="images/hero1280.jpg" />
+          <source media="(min-width:600px)" srcset="images/hero601x962.jpg" />
+          <img src="images/hero360x640.png" alt="Banner" />
+        </picture>
+        <h1 class="hidden">All About Mini Cooper Color Edition</h1>
+      </div>
+
+      <article>
+        <h3>Build Your Mini!</h3>
+        <p>Select a Model to Start</p>
+      </article>
+      <div id="app">
+        <nav id="character-nav">
+          <ul class="characters">
+            <!-- hero thumb component goes here -->
+            <theherothumb
+              @loadlbdata="loadLightbox"
+              v-for="hero in heroData"
+              :hero="hero"
+            ></theherothumb>
+          </ul>
+        </nav>
+        <!-- custom lightbox component goes here -->
+        <thelightbox
+          @closelb="this.showLB = false"
+          v-if="showLB"
+          :item="lbData"
+        ></thelightbox>
+
+        <!-- end lightbox -->
+      </div>
+      <section class="clickBuy">
+        <h2 class="hidden">Click And Buy</h2>
+        <div>
+          <img class="pic" src="./images/minibuy1.jpeg" />
+        </div>
+        <div>
+          <h3>Mini Cooper, Order online</h3>
+          <h4>You're just one click away from your new mini.</h4>
+          <h4>Pick up where you left off.</h4>
+          <a href="404error.html">Buy Online</a>
+          <a href="404error.html">Local Inventory</a>
+        </div>
+      </section>
+
+      <!-- make this a sticky footer so it's always at the bottom-->
+      <footer class="sticky_footer container">
+        <section class="ft-legal"></section>
+        <!-- Footer main -->
+        <section class="ft-main">
+          <div class="ft-main-item">
+            <h2 class="ft-title">About</h2>
+            <ul>
+              <li><a href="#">Mini Cooper Canada</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Contact</h2>
+            <ul>
+              <li><a href="#">Find a Retailer</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Book a Test Drive</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Footer social -->
+        <section class="ft-social">
+          <ul class="ft-social-list">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </section>
+        <!-- Footer legal -->
+        <section class="ft-legal">
+          <ul class="ft-legal-list">
+            <li>&copy; 2022 Mini Cooper Colors Edition</li>
+          </ul>
+        </section>
+      </footer>
+    </main>
+
+    <!-- lightbox component goes here -->
+
+    <!-- end lightbox component -->
+
+    <!-- load script tags at the bottom -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/main.js" type="module" defer></script>
+    <script
+      src="https://kit.fontawesome.com/4f6e35c80b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
