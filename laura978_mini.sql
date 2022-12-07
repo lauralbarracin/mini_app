@@ -42,7 +42,7 @@ CREATE TABLE `mini_colors` (
 INSERT INTO `mini_colors` (`mini_id`, `mini_colorextra`, `mini_colorint`, `mini_colorext`) VALUES
 (1, 'purple, red, yellow, blue', 'red, beige, black, white', 'blue, red, green, white, beige'),
 (2, 'purple, red, yellow, blue, green', 'white, black, beige', 'black, red, beige'),
-(3, 'purple, red, yellow, blue', 'red, beige, black, white', 'blue, red, green, white, beige'),
+(3, 'purple, red, green, blue', 'red, beige, black, white', 'blue, red, green, white, beige'),
 (4, 'purple, red, yellow, blue, green', 'white, black, beige', 'black, red, beige');
 
 -- --------------------------------------------------------
@@ -68,7 +68,7 @@ INSERT INTO `mini_equipment` (`mini_id`, `mini_wheels`, `mini_mirrors`, `mini_he
 (1, '16 alloy wheels', 'four options available for this model', 'adaptive leds', '6 way manual front wheels', 'rear seat 60-40 split folding'),
 (2, '3 sport spoke available', 'six options available for this model', 'adaptive led headlights with cornering functions', 'six-way manual front seats', '60-40 split folding'),
 (3, '16 alloy wheels', 'four options available for this model', 'adaptive leds', 'four-way manual front seat ', 'rear seat 60-40 split folding'),
-(4, '3 sport spoke available', 'two options are available on external features', 'adaptive led headlights and led taillights with Union Jack design', 'six-way manual front seats', '60-40 split folding');
+(4, '6 sport spoke available', 'two options are available on external features', 'adaptive led headlights and led taillights with Union Jack design', 'six-way manual front seats', '60-40 split folding');
 
 -- --------------------------------------------------------
 
