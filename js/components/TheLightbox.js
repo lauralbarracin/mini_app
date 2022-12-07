@@ -6,17 +6,18 @@ export default {
     emits: ['closelightbox'],
 
     template: `
-    <section ref="lbWrapper" class="lightbox" :style="{ 'background-image': 'url(../images/' + item.min_pic + ')' }">
+    <section class="lightbox">
+    <section class="lightbox-container">
 
         <img @click="closeLB" ref="bgImg" src="images/closeIcon.jpg" class="lightbox_close">
         <!-- hero image on the left, text on the right -->
         <!-- her image is a background image -->
         <section>
             <h3 class="lb_heading">{{item.min_name}}</h3>
-            <div>
-                <h2>Price:  {{item.min_price}}</h2>
-            </div>
-        </div>
+            <img class="lb_pic" :src='"images/" + item.min_pic'>
+            <h2>Price:  {{item.min_price}}</h2>
+            
+        </section>
         <div class="one-item">
             <div>
                 <h2> Engine: 
@@ -47,10 +48,14 @@ export default {
                 </div>
                 <div>
                     <h2>Top Speed: {{item.min_topspeed}}</h2>
-        
+                </div>
+                <div class="butBuy">
+                <a href="404error.html">Buy Online</a>
                 </div>
             </div>
         </section>
+    </section>
+    
     </section>
     
     `,
