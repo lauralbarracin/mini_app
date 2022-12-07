@@ -1,0 +1,174 @@
+.hidden { display: none; }
+
+html, body { height: 100% }
+
+body { 
+  font-family: "Mulish", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(10, 10, 10);
+}
+
+header { 
+  background-color: rgb(255, 255, 255); 
+  position: sticky; 
+  top: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  text-align:center; //esto afecta todos los nav incluido carros y menu principal
+  margin: 0px;
+}
+nav ul li {
+  display: inline-block;
+  
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(124, 124, 124);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: rgb(50, 50, 50);
+}
+
+#main-logo { width: 220px; padding: 10px 0; }
+
+article {
+    padding: 20px;
+    margin: 2em;
+  }
+  
+  article h3 { 
+    font-size: 2em; 
+    text-align: center; 
+    margin-bottom: 14px; 
+  }
+  
+  article p { 
+    width: 80%; 
+    font-size: 18px; 
+    line-height: 1.2; 
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+
+  .pics {
+    display: flex;
+    justify-content: left;
+    width: 100;
+    margin: 2em;
+  }
+
+  h2 {
+    font-family: "Marcellus" ;
+    color: rgb(23, 0, 23);
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  h3 {
+    font-family: "Mulish";
+    font-size: 18px;
+    padding: 0.5em;
+    color:rgb(10, 10, 10);
+  }
+
+  .clickBuy {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color:aliceblue;
+  }
+
+  .clickBuy h3{
+    font-family: 'Mulish';
+    padding: 1.4em;
+    font-size: 30px;
+    color: #ffff;
+    justify-content: flex-start;
+  }
+
+  .clickBuy h4 {
+    padding: 0.5em; 
+    font-size: 22px;
+    justify-items: flex-end;
+  }
+
+  .clickBuy h5 {
+    padding: 0.2em;
+    font-size: 18px;
+  }
+
+  .clickBuy a {
+    margin: 1em;
+    border: 1px solid rgb(236, 247, 113);
+    border-radius: 40px;
+    color:rgb(20, 20, 20);
+    background-color: rgb(236, 236, 118);
+    margin-top: 3em;
+    margin-left: 1em;
+    padding: 1em;
+  }
+
+  .clickBuySection .action {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .hidden {
+    display: none;
+  }
+
+  .pic{
+    width: 750px;
+    height: auto;
+    background-color: black;
+  }
+
+  @media screen and (min-width: 760px) {
+    .pic{
+      width: 750px;
+      height: auto;
+      background-color: black;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .pic{
+      width: 350px;
+      height: auto;
+      background-color: black;
+    }
+    .clickBuy h3{
+      font-family: 'Mulish';
+      padding: 1.4em;
+      font-size: 24px;
+      color: #ffff;
+      justify-content: flex-start;
+    }
+  
+    .clickBuy h4 {
+      padding: 0.5em; 
+      font-size: 18px;
+      justify-items: flex-end;
+    }
+  
+    .clickBuy h5 {
+      padding: 0.2em;
+      font-size: 14px;
+    }
+  
+  }

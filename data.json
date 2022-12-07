@@ -1,0 +1,60 @@
+
+    {
+        "Mini 3 Doors": {
+            "min_name": "Mini 3 Door",
+            "min_id": "1",
+            "min_pic": "mini3int.png",
+            "min_biopic": "mini3.png",
+            "min_price": "40,767",
+            "min_engine": "4 Cylinder Twin turbocharged engine",
+            "min_output": "189 hp 207 torque",
+            "min_boreandstroke": "82.0 x 94.6",
+            "min_maxtorque": "189hp 207ft lb torque",
+            "min_displacement": "1998",
+            "min_power": "4 Cylinder 189 hp twin turbocharged engine",
+            "min_topspeed": "200 km/h"
+    },
+        "Mini 5 Doors": {
+                "min_name": "Mini 5 Door",
+                "min_id": "2",
+                "min_pic": "minint5.jpg",
+                "min_biopic": "mini5s.jpg",
+                "min_price": "39,767",
+                "min_engine": "4 Cylinder Twin turbocharged engine",
+                "min_output": "189 hp 207 torque",
+                "min_boreandstroke": "82.0 x 94.6",
+                "min_maxtorque": "162ft lb 1480 4100",
+                "min_displacement": "1998",
+                "min_power": "4 Cylinder 189 hp twin turbocharged engine",
+                "min_topspeed": "210 km/h"
+        },
+        "Mini Cooper Convertible S": {
+            "min_name": "Cooper Convertible S",
+            "min_id": "3",
+            "min_pic": "min3cs.png",
+            "min_biopic": "min1b.png",
+            "min_price": "Price: 46,356",
+            "min_engine": "Engine: 4 Cylinder 16 valve Twin scroll turbo",
+            "min_output": "189 hp 5000 6000",
+            "min_boreandstroke": "82.0 x 94.6",
+            "min_maxtorque": "207 ft lb 1350 4400",
+            "min_displacement": "1998",
+            "min_power": "4 Cylinder 189 hp twin scroll turbo technology",
+            "min_topspeed": "230 km/h"
+        },
+        "Cooper Convertible John Cooper": {
+            "min_name": "Cooper Convertible John Cooper",
+            "min_id": "4",
+            "min_pic": "CapMarvel_LB_Bg.png",
+            "min_biopic": "min4.jpg",
+            "min_price": "46,356",
+            "min_engine": "4 Cylinder 16 valve Twin scroll turbo",
+            "min_output": "228 hp 5200 6000",
+            "min_boreandstroke": "82.0 x 94.6",
+            "min_maxtorque": "236 ft lb 1550 4800",
+            "min_displacement": "1998",
+            "min_power": "4 Cylinder 228 hp twin scroll turbo technology",
+            "min_topspeed": "240 km/h"
+        }
+      }
+  
