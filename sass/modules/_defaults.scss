@@ -15,6 +15,11 @@ header {
   text-align: center;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 nav ul {
   list-style: none;
   text-align:center; //esto afecta todos los nav incluido carros y menu principal
@@ -74,20 +79,19 @@ article {
   h2 {
     font-family: "Marcellus" ;
     color: rgb(23, 0, 23);
-    font-size: 20px;
-    padding: 1em;
+    font-size: 18px;
+    padding: 0.4em;
   }
   
   h3 {
     font-family: "Mulish";
-    font-size: 18px;
-    padding: 0.5em;
+    font-size: 16px;
+    padding: 0.3em;
     color:rgb(10, 10, 10);
   }
 
   .clickBuy {
     display: flex;
-    justify-content: space-around;
     background-color: grey;
     color:aliceblue;
   }
@@ -120,6 +124,17 @@ article {
     margin-top: 3em;
     margin-left: 1em;
     padding: 1em;
+    text-transform: uppercase;
+    transition: all ease-in-out 0.3s;
+    justify-content: center;
+    display: flex;
+    z-index: 100;
+    padding: 10px;
+    min-width: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    min-width: 150px;
   }
 
   .clickBuySection .action {
@@ -153,9 +168,9 @@ article {
       background-color: black;
     }
     .clickBuy h3{
-      font-family: 'Mulish';
-      padding: 1.4em;
-      font-size: 24px;
+      font-family: 'Helvetica';
+      padding: 1.0em;
+      font-size: 20px;
       color: #ffff;
       justify-content: flex-start;
     }
