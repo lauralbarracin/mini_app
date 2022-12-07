@@ -11,12 +11,20 @@ this data along with PHP you will create an API to pass this information to your
 
 ## Installation
 
+To run from JSON File
 
+Clone it to your PC/Mac
+Open the folder in your Visual Studio Code or the editor of your preference
+Right click on the "index" and select open in your default browser
 
-## Usage
+To run from MAMP/WAMP
 
+Open MAMP OR WAMP and create a database named db_mini
+import the tables from the includes folder to that data base
+Edit the main.js to fecth the data from your current data base.
+Make sure that the PHP connect file is formated correct for your system
+Place the folder into your www or htdocs 
 
-```
 
 ## Contributing
 
