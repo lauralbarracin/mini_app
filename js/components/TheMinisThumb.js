@@ -4,20 +4,20 @@ export default {
     emits: ['loadlbdata'],
 
     props: {
-        hero: Object
+        minis: Object
     },
 
     template:`
     <li @click="loadLBData">
-        <img :src='"images/" + hero.min_biopic' alt="hero img" style="width: 390px;" >
+        <img :src='"images/" + minis.min_biopic' alt="minis img" style="width: 390px;" >
         
-        <h5>{{hero.min_name}}</h5>
+        <h5>{{minis.min_name}}</h5>
     </li>
     `,
 
     methods: {
         loadLBData() {
-           this.$emit('loadlbdata', this.hero);
+           this.$emit('loadlbdata', this.minis);
         }
     }
 }

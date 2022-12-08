@@ -65,17 +65,17 @@
         <div>
           <ul class="car">
             <!-- hero thumb component goes here -->
-            <theherothumb
+            <theministhumb
               @loadlbdata="loadLightbox"
-              v-for="hero in heroData"
-              :hero="hero"
-            ></theherothumb>
+              v-for="minis in minisData"
+              :minis="minis"
+            ></theministhumb>
           </ul>
         </div>
         <!-- custom lightbox component goes here -->
         <thelightbox
-          @closelb="this.showLB = false"
-          v-if="showLB"
+          @closelb="this.showLightbox = false"
+          v-if="showLightbox"
           :item="lbData"
         ></thelightbox>
 
