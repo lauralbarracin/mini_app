@@ -11,9 +11,10 @@ this data along with PHP you will create an API to pass this information to your
 
 Front End: 
 The front end used Vue.js and Sass to show the proper information to the user. As well, the page contains an status of 404 creating an error in some links, this status will suggest the user to come back to home. 
-## Installation
+## Dev notes
 
-
+Developer Notes Link: 
+https://docs.google.com/document/d/12BRFNTgaI_4bd0DsLiH24WztAnY2asnaExF9S296rEk/edit?usp=sharing
 
 ## Usage
 
