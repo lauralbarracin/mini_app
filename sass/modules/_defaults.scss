@@ -94,12 +94,14 @@ article {
     display: flex;
     background-color: grey;
     color:aliceblue;
+    margin: 2em;
   }
 
   .clickBuy h3{
-    font-family: 'Mulish';
+    font-family: 'helvetica';
     padding: 1.4em;
-    font-size: 30px;
+    font-size: 34px;
+    font-weight: 200;
     color: #ffff;
     justify-content: flex-start;
   }
@@ -107,6 +109,9 @@ article {
   .clickBuy h4 {
     padding: 0.5em; 
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1em;
+    font-weight: 100;
     justify-items: flex-end;
   }
 
@@ -122,7 +127,7 @@ article {
     color:rgb(20, 20, 20);
     background-color: rgb(236, 236, 118);
     margin-top: 3em;
-    margin-left: 1em;
+    margin-left: 3em;
     padding: 1em;
     text-transform: uppercase;
     transition: all ease-in-out 0.3s;
@@ -130,7 +135,8 @@ article {
     display: flex;
     z-index: 100;
     padding: 10px;
-    min-width: 160px;
+    max-width: 220px;
+    min-width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -163,7 +169,7 @@ article {
 
   @media screen and (max-width: 760px) {
     .pic{
-      width: 350px;
+      width: 200px;
       height: auto;
       background-color: black;
     }
@@ -177,7 +183,10 @@ article {
   
     .clickBuy h4 {
       padding: 0.5em; 
+      padding-right: 1em;
       font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 200;
       justify-items: flex-end;
     }
   
@@ -185,5 +194,34 @@ article {
       padding: 0.2em;
       font-size: 14px;
     }
+
+    .clickBuy a {
+      margin: 1em;
+      border: 1px solid rgb(236, 247, 113);
+      border-radius: 40px;
+      color:rgb(20, 20, 20);
+      background-color: rgb(236, 236, 118);
+      margin-top: 3em;
+      margin-left: 1em;
+      padding: 1em;
+      text-transform: uppercase;
+      transition: all ease-in-out 0.3s;
+      justify-content: center;
+      display: flex;
+      z-index: 100;
+      padding: 10px;
+      max-width: 140px;
+      min-width: 90px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      min-width: 150px;
+    }
   
   }
+
+  @media screen and (max-width: 460px) {
+    .pic{ 
+      display:none ; 
+  }
+}
