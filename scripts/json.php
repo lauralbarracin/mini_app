@@ -8,9 +8,9 @@
     require_once("config.php");
 
     //Return all results
-    $getContent = getAll('tbl_projects');
+    $getContent = getAll('mini_models');
     //$getContent = getSingle('tbl_marvel', 'marvel_id', '4');
-    $label = "project_id";
+    $label = "mini_id";
 
     if(!is_string($getContent)) {
         $result = [];

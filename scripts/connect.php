@@ -10,7 +10,7 @@
     $pass = ""; // For MAMP
     $url = "localhost";
     // Change the database name for each site
-    $db = "laura978_fip";
+    $db = "laura978_mini";
 
     // Connect to db
     //$link = mysqli_connect($url, $user, $pass, $db, "8888"); //Mac
