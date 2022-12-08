@@ -127,7 +127,7 @@ article {
     color:rgb(20, 20, 20);
     background-color: rgb(236, 236, 118);
     margin-top: 3em;
-    margin-left: 1em;
+    margin-left: 3em;
     padding: 1em;
     text-transform: uppercase;
     transition: all ease-in-out 0.3s;
@@ -135,8 +135,8 @@ article {
     display: flex;
     z-index: 100;
     padding: 10px;
-    max-width: 180px;
-    min-width: 120px;
+    max-width: 220px;
+    min-width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
@@ -219,3 +219,9 @@ article {
     }
   
   }
+
+  @media screen and (max-width: 460px) {
+    .pic{ 
+      display:none ; 
+  }
+}
