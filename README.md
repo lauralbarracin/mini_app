@@ -9,6 +9,8 @@ information about a mini vehicle and it’s 4 model types.
 Consider what information would be relevant in order to inform the user the information about each model. Using
 this data along with PHP you will create an API to pass this information to your front-end to be displayed for the users. 
 
+Front End: 
+The front end used Vue.js and Sass to show the proper information to the user. As well, the page contains an status of 404 creating an error in some links, this status will suggest the user to come back to home. 
 ## Installation
 
 
